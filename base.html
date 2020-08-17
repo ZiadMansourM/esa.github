@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.js"></script> -->
+    <link href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <h2 style="text-align:center; margin-top:15px">The Egyption Science Arsenal - ESA: <mark>Dashboard</mark></h2>
+    <hr>
+    <table class="table table-bordered table-hover mydatatable" style="width:100%">
+        <thead class="thead-dark">
+            <tr>
+              <th>Name</th>
+              <th>Posts</th>
+              <th>Reactions</th>
+              <th>Shares</th>
+              <th>Posts/Month</th>
+              <th>Reactions/Post</th>
+              <th>Shares/Post</th>
+              <th>Missed</th>
+              <th>Met</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+                <tr>
+                    <td>Ziad Mansour Mohamed</td>
+                    <td>6</td>
+                    <td>79</td>
+                    <td>12</td>
+                    <td>2</td>
+                    <td>45</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>2</td>
+                </tr>
+            
+        </tbody>
+        <tfoot class="thead-dark">
+          <tr>
+            <th>Name</th>
+            <th>Posts</th>
+            <th>Reactions</th>
+            <th>Shares</th>
+            <th>Posts/Month</th>
+            <th>Reactions/Post</th>
+            <th>Shares/Post</th>
+            <th>Missed</th>
+            <th>Met</th
+          </tr>
+        </tfoot>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+    <script>
+      $('.mydatatable').DataTable();
+    </script>
+  </body>
+</html>
