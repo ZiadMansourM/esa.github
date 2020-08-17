@@ -1,0 +1,17 @@
+[
+    // only one example is shown here
+    // after converting your excel to json put it here
+    // use:http://beautifytools.com/excel-to-json-converter.php
+    // to convert excel to json 
+    {
+        "Name": "Ziad Mansour Mohamed",
+        "Posts": "35",
+        "Reactions": "467",
+        "Shares": "48",
+        "Posts per Month": "9",
+        "Reactions per Post": "63",
+        "Shares per Post": "22",
+        "Missed": "0",
+        "Met": "0"
+    }
+]
